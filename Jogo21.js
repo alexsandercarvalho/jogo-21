@@ -1,8 +1,8 @@
 // jogo de cartas
 
 const baralho = [ ];
-var pedido1 = 4; /// ENTRADA DE DADOS 1o GAMER (problema é quem ditar 10 pq limpa o array)
-var pedido2 = 4; /// ENTRADA DE DADOS 2 GAMER
+var pedido1 = 4; /// ENTRADA DE DADOS 1o GAMER 
+var pedido2 = 4; /// ENTRADA DE DADOS 2o GAMER
 var separar1, separar2;
 let contador = 0;
 
@@ -15,21 +15,12 @@ function getRandomInt(min, max) {
   while(contador < 10) {
   contador = contador + 1; // incrementa o contador
   const event = getRandomInt();  // executa a função
-  baralho.push(event); // preenchi o array com os valores 
+  baralho.push(event); // preenche o array com os valores aleatórios
   }
-//const pega1 = baralho;
-//const pega2 = baralho;
-
-//console.log("da máquina "+baralho);
-//console.log('pegou 1: '+pega1);
-//console.log('pegou 2: '+pega2);
 
 separar1 = baralho.slice(0, pedido1); 
 separar2 = baralho.slice(0, pedido2); 
  
-//console.log(separar1);
-//console.log(separar2);
-
 // faz as comparações 
 
     let sumA = separar1.reduce((accumulator, number) => {
