@@ -1,4 +1,5 @@
-// este foi o ultimo
+// jogo de cartas
+
 const baralho = [ ];
 var pedido1 = 4; /// ENTRADA DE DADOS 1o GAMER (problema é quem ditar 10 pq limpa o array)
 var pedido2 = 4; /// ENTRADA DE DADOS 2 GAMER
@@ -26,6 +27,9 @@ function getRandomInt(min, max) {
 separar1 = baralho.slice(0, pedido1); 
 separar2 = baralho.slice(0, pedido2); 
 // o problema resolvido, slice e não splice
+// quando se usa splice ele remove os indices do array
+// quando se usa slice ele não remove os itens do array, 
+// então tenho o resultado esperado de se ler o array novamente deste o primeiro indice 
  
 //console.log(separar1);
 //console.log(separar2);
