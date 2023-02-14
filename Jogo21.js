@@ -18,11 +18,11 @@ function getRandomInt(min, max) {
   baralho.push(event); // preenche o array com os valores aleatórios
   }
 
+// seleciona as cartas conforme a entrada de dados
 separar1 = baralho.slice(0, pedido1); 
 separar2 = baralho.slice(0, pedido2); 
  
 // faz as comparações 
-
     let sumA = separar1.reduce((accumulator, number) => {
     return accumulator + number
     }, 0);
