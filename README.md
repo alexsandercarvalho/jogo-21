@@ -1,4 +1,3 @@
-Problema
 Você foi contratado pela Ubsoft, uma das maiores empresas de desenvolvimento de jogos eletrônicos do mundo, para desenvolver o novo jogo da empresa.
 
 Nesse jogo online e de azar, baseado no famoso jogo de cartas 21, dois participantes competem entre si. O jogo funciona da seguinte forma:
