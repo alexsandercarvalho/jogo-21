@@ -26,10 +26,6 @@ function getRandomInt(min, max) {
 
 separar1 = baralho.slice(0, pedido1); 
 separar2 = baralho.slice(0, pedido2); 
-// o problema resolvido, slice e não splice
-// quando se usa splice ele remove os indices do array
-// quando se usa slice ele não remove os itens do array, 
-// então tenho o resultado esperado de se ler o array novamente deste o primeiro indice 
  
 //console.log(separar1);
 //console.log(separar2);
